@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="1"
+        />
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="2"
+        />
+
+   <Button
+       android:id="@+id/addcalendar"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="add"
+       />
+    <Button
+        android:id="@+id/addevent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add Event"
+        />
+    <Button
+        android:id="@+id/addgetevent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add getEvent"
+        />
+
+</LinearLayout>
